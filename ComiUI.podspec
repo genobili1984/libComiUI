@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name          = 'ComiUI'
-  s.version       = 'v1.0.0'
+  s.version       = 'v2.0.0'
   s.summary       = 'ComiUI'
   s.homepage      = 'https://www.comicool.cn'
   s.author        = { 'ComiCool.Inc.' => '' }
@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   }
   s.source_files  = '*.h'
   s.vendored_libraries = 'libComiUI.a'
+  s.frameworks = 'MobileCoreServices', 'SystemConfiguration', 'Accelerate'
   s.license = 'MIT'
   s.requires_arc  = true
 
